@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: url('../fonts/GothamBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham-Medium';
+    src: url('../fonts/GothamMedium.ttf') format('truetype');
+    font-weight: medium;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima-Nova';
+    src: url('../fonts/Proxima-Nova.ttf') format('truetype');
+    font-weight: regular;
+    font-style: normal;
+}
