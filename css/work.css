@@ -1,0 +1,17 @@
+.work__container {
+    padding-top: 50px;
+}
+
+.gallary {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -30px;
+    margin-top: 60px;
+}
+
+.gallary__item {
+    display: block;
+    margin: 0 30px;
+    margin-bottom: 60px;
+    width: calc(100% / 3 - 60px);
+}

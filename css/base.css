@@ -16,3 +16,32 @@ ul, li {
 a {
     text-decoration: none;
 }
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.section-title {
+    position: relative;
+    font-family: 'Gotham-Bold';
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.section-title::after {
+    content: '';
+    display: block;
+    width: 25%;
+    height: 2px;
+    margin: 10px auto;
+    background-color: #000;
+}
+
+.section-text {
+    max-width: 540px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Proxima-Nova';
+}

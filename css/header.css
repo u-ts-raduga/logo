@@ -1,5 +1,26 @@
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 100px;
+}
+
+.navigation__list {
+    display: flex;
+}
+
+.navigation__item {
+    margin-left: 50px;
+}
+
 .navigation__link {
     font-family: 'Gotham-Medium';
     font-size: 12px;
+    text-transform: uppercase;
     color: grey;
+    transition: color .3s;
+}
+
+.navigation__link:hover {
+    color: rgb(163, 163, 163);
 }

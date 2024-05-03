@@ -9,7 +9,7 @@
 </head>
 <body>
     <header class="header">
-        <div class="container">
+        <div class="container header__container">
             <a class="logo" href="#" class="logo">
                 <img class="logo__img" src="img/LØGØ.png" alt="logo">
             </a>
@@ -25,15 +25,17 @@
     <main class="main">
         <section class="hero">
             <div class="container">
-                <h1 class="hero__main-head">let us make your live easier</h1>
+                <h1 class="hero__main-head">let us make <br> your live easier</h1>
                 <p class="hero__main-text">We specialize in crafting awesome ideas for web, mobile and bey</p>
-                <a class="hero__down-btn" href="#"></a>
+                <a class="hero__down-btn" href="#">
+                    <div class="down-btn__inner"></div>
+                </a>
             </div>
         </section>
         <section class="work">
-            <div class="container">
+            <div class="container work__container">
                 <h2 class="section-title">Featured Work</h2>
-                <p class="section-text">Here you can find some of our latest works, to see the details</p>
+                <p class="section-text">Here you can find some of our latest works, to see the details of these works just click the thumbnails below.</p>
                 <div class="gallary">
                     <a class="gallary__item" href="#"><img class="gallary__pic" src="img/Pilter.jpg" alt="Pilter"></a>
                     <a class="gallary__item" href="#"><img class="gallary__pic" src="img/Touch.jpg" alt="Touch"></a>
@@ -48,9 +50,9 @@
             </div>
         </section>
         <section class="team">
-            <div class="container">
+            <div class="container team__container">
                 <h2 class="section-title">Team</h2>
-                <p class="section-text">We are a hard working group, who's aim is to listen to your pro</p>
+                <p class="section-text">We are a hard working group, who's aim is to listen to your problems <br> and to come up with the best solution possible. We follow the lates trends on <br> the web to create custom talierd niche websites.</p>
                 <div class="team__emploers">
                     <div class="team__emploer">
                         <div class="emploer__avatar">
@@ -137,25 +139,31 @@
             </div>
         </section>
         <section class="contact">
-            <div class="container">
+            <div class="container contact__container">
                 <h2 class="section-title">Contact</h2>
-                <div class="contact__map">
-                    <p class="contact__map-text">Where are we located?</p>
-                    <div class="map"></div>
-                </div>
-                <div class="contact__form">
-                    <p class="contact__form-text">Want to contact us now? Just drop us a line below.</p>
-                    <form class="form" action="#" id="form">
-                        <textarea class="form__message" name="message" id="message" cols="30" rows="10" placeholder="Leave your message..."></textarea>
-                        <input class="form__email" type="email" name="email" id="email" placeholder="your@email.com" autocomplete="off">
-                        <input class="form__submit" type="submit" value="Send">
-                    </form>
+                <div class="contact__content">
+                    <div class="contact__map">
+                        <p class="contact__map-text">Where are we located?</p>
+                        <div class="map"></div>
+                    </div>
+                    <div class="contact__form">
+                        <p class="contact__form-text">Want to contact us now? Just drop us a line below.</p>
+                        <form class="form" action="#" id="form">
+                            <div class="form__message">
+                                <textarea class="form__textarea" name="message" id="message" cols="30" rows="10" placeholder="Leave your message..."></textarea>
+                            </div>
+                            <div class="form__inputs">
+                                <input class="form__email" type="email" name="email" id="email" placeholder="your@email.com" autocomplete="off">
+                                <input class="form__submit" type="submit" value="Send">
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
     <footer class="footer">
-        <div class="container">
+        <div class="container footer__container">
             <address class="address">Adress: Ahmet Bayman Caddesi No:8, Seyrantepe - Istanbul</address>
             <div class="copyright">Copyright © 2013 Limbo</div>
         </div>

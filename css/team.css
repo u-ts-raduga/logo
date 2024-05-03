@@ -1,0 +1,91 @@
+.team {
+    background-color: rgba(223, 223, 223, 0.403);
+}
+
+.team__container {
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.team__emploers {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+    padding-top: 60px;
+}
+
+.team__emploer {
+    display: block;
+    margin: 0 20px;
+    padding: 20px;
+    width: calc(100% / 4 - 40px);
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 0 5px grey;
+}
+
+.emploer__avatar {
+    position: relative;
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+    border: 2px solid white;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.emploer__pic {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: scale(180%);
+}
+
+.emploer__name {
+    font-family: 'Gotham-Bold';
+    font-size: 16px;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.emploer__specification {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.emploer__social-links {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.social-links__item {
+    margin: 0 10px;
+}
+
+.social-links__icon {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.social-links__icon--twitter{
+    background-image: url(../img/Twitter.png);
+}
+
+.social-links__icon--dribbble{
+    background-image: url(../img/Dribbbel.png);
+}
+
+.social-links__icon--linkedin{
+    background-image: url(../img/Linkedin.png);
+}
+
+.social-links__icon--skype{
+    background-image: url(../img/Skype.png);
+}
